@@ -1,0 +1,20 @@
+{
+  "name": "Typescript",
+  "version": "1.0.0",
+  "description": "Typescript 공부하는 것을 기록합니다",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xchdtk/Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xchdtk/Typescript/issues"
+  },
+  "homepage": "https://github.com/xchdtk/Typescript#readme"
+}
