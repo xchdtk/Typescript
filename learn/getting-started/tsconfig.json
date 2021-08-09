@@ -1,0 +1,9 @@
+{
+    "compierOptions" : {
+        "allowJs" : true,
+        "checkJs" : true,
+        "noImplicitAny" : true,
+    },
+
+    "target" : "ES2017"
+}
