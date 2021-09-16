@@ -13,7 +13,7 @@ let seho: User = {
 function getUser(user: User) {
     console.log(user)
 } 
-const jinsoo = {
+const jinsoo: User = {
     age: 23,
     name: 'jinsoo'
 }

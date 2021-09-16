@@ -7,7 +7,7 @@ var seho = {
 function getUser(user) {
     console.log(user);
 }
-var jinsoo = {
+let jinsoo = {
     age: 23,
     name: 'jinsoo'
 };
