@@ -46,7 +46,7 @@ interface Person {
 function askSomeone(someone: Developer & Person) {
     console.log(someone.name);
     console.log(someone.skill);
-    console.log(someone.age);
+    // console.log(someone.age);
 }
 
 askSomeone({ name: '디벨로퍼', skill: "웹개발", age: 100});
