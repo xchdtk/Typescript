@@ -49,8 +49,8 @@ let obj: StringRegexDictionary = {
     jsFile: /\.js$/
 }
 
-Object.keys(obj).forEach(function(value){
-    console.log(value)
+Object.keys(obj).forEach(function(key){
+    console.log(key)
 })
 
 // 인터페이스 확장

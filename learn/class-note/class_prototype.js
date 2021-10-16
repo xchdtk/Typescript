@@ -14,8 +14,17 @@ class Person {
     } 
 }
 
+Person.prototype.sum = () => {
+    console.log("사랑해");
+}
+
+Person.prototype.hello = () => {
+    console.log("hello");
+}
+
 let jinsoo = new Person('진수', 30);
 console.log(jinsoo);
+console.log(jinsoo.sum());
 
 // prototype
 
