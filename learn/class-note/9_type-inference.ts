@@ -44,6 +44,21 @@ let arr = [1, 2, true, true, 'a'];
 // 내부적으로 typescript launguage server가 동작하고 있기 때문에
 // typescript 타입추론이나 intellisense가 가능하게 되는 것이다.
 
+interface a<T> {
+    value: T
+    title: string
+}
+
+interface b<T> extends a<T> {
+    description : string
+}
+
+let c: b<number> = {
+    value: 3,
+    title: "행복",
+    description: "하자"
+}
+
 
 
 

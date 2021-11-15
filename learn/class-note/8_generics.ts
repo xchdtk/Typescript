@@ -78,9 +78,9 @@ function logTextLength<T extends LengthType>(text: T): T {
     console.log(text.length);
     return text
 }
-console.log(logTextLength<string>('a'));
+console.log(logTextLength('a'));
 // logTextLength<number>(10);
-// logTextLength({ length: 10});
+logTextLength({ length: 10});
 
 // 제네릭 타입 제한 3 - key of
 interface ShoppingItem {

@@ -1,31 +1,21 @@
-interface NumberArray1 {
-    [index: number]: number
+function logText2<T>(text: T): T {
+    console.log(text);
+    return text
 }
 
-let arr1: NumberArray1 = [1, 2, 3];
+let a = logText2<string>('happy');
+a.length
 
-interface dictionary1 {
-    [key: string] : string
+// 인터페이스에 제네릭을 선언하는 방법
+interface Dropdown3 {
+    value: string;
+    selected: boolean
+}
+const obj3: Dropdown3 = { value: "abc", selected: false };
+interface Dropdown4<T> {
+    value: string;
+    selected: boolean
 }
 
-let obj1: dictionary1 = {
-    "a" : "1",
-    "b" : "2"
-}
+const obj4: Dropdown4<number> = { value: '3', selected: false };
 
-Object.keys(obj1).forEach(function (key) {
-    console.log(key)
-})
-
-// class
-class Person2 {
-    private name: string;
-    public age: number;
-    readonly log: string;
-
-    constructor(name: string, age: number, log: string) {
-        this.name = name;
-        this.age = age;
-        this.log = log;
-    }
-}
